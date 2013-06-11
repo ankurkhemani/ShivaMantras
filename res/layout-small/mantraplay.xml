@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+    
+    <LinearLayout 
+       android:id="@+id/linearLayout1"
+       android:orientation="horizontal"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" 
+       android:layout_centerHorizontal="true"
+       android:layout_alignParentBottom="true"
+        
+        >
+        
+        <Button 
+           android:id="@+id/stop"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/stop"
+           
+           />
+         <Button 
+           android:id="@+id/previous"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/previous"
+           
+           />
+      
+       <ToggleButton
+        android:id="@+id/tb"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textOff=""
+        android:background="@drawable/pause"
+        android:textOn=""
+       android:layout_marginLeft="10dp"
+         />
+       <Button 
+           android:id="@+id/next"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/next"
+           
+           />
+       
+       
+       
+      
+   
+    </LinearLayout>
+    
+   
+     <SeekBar
+        android:id="@+id/SeekBar01"
+        android:layout_height="27dp"
+        android:layout_width="fill_parent"
+        android:layout_above="@id/linearLayout1"
+        android:layout_marginBottom="5dp"
+        android:thumb="@drawable/thumb_fill"
+        android:progressDrawable="@drawable/progress"
+        
+        />
+     
+     <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:layout_above="@id/SeekBar01"
+        android:gravity="center_horizontal"
+        android:text="Mantra 1"
+        android:textSize="20dp" />
+     
+     <ImageView
+         android:id="@+id/iv"
+         android:layout_width="fill_parent"
+         android:layout_height="180dp"
+         android:src="@drawable/shiv5" 
+         android:layout_below="@+id/linearLayout2"
+         android:gravity="center_horizontal"
+         />
+     
+     <LinearLayout 
+       android:id="@+id/linearLayout2"
+       android:orientation="horizontal"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content" 
+       android:gravity="center_horizontal"
+	   android:layout_alignParentTop="true"        
+        >
+        
+     
+         <Button 
+           android:id="@+id/previous1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/leftarrow"
+           
+           />
+      
+       <ToggleButton
+        android:id="@+id/tb1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textOff=""
+        android:background="@drawable/pause"
+        android:textOn=""
+       android:layout_marginLeft="10dp"
+         />
+       <Button 
+           android:id="@+id/next1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/rightarrow"
+           
+           />
+       
+       
+       
+      
+   
+    </LinearLayout>
+     
+
+</RelativeLayout>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cena.genaks.shivamantras"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    
+		
+        
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+       
+        <activity
+            android:name="com.cena.genaks.shivamantras.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|keyboard" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.cena.genaks.shivamantras.ShivaGallery"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|keyboard" >
+            <intent-filter>
+                <action android:name="COM.CENA.GENAKS.SHIVAMANTRAS.SHIVAGALLERY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.cena.genaks.shivamantras.MantrasList"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|keyboard" >
+            <intent-filter>
+                <action android:name="COM.CENA.GENAKS.SHIVAMANTRAS.MANTRASLIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.cena.genaks.shivamantras.Mantra1"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|keyboard" >
+            <intent-filter>
+                <action android:name="COM.CENA.GENAKS.SHIVAMANTRAS.MANTRA1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.cena.genaks.shivamantras.Mantra2"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|keyboard" >
+            <intent-filter>
+                <action android:name="COM.CENA.GENAKS.SHIVAMANTRAS.MANTRA2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.cena.genaks.shivamantras.Mantra3"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|keyboard" >
+            <intent-filter>
+                <action android:name="COM.CENA.GENAKS.SHIVAMANTRAS.MANTRA3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.cena.genaks.shivamantras.Mantra4"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|keyboard" >
+            <intent-filter>
+                <action android:name="COM.CENA.GENAKS.SHIVAMANTRAS.MANTRA4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.cena.genaks.shivamantras.Mantra5"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|keyboard" >
+            <intent-filter>
+                <action android:name="COM.CENA.GENAKS.SHIVAMANTRAS.MANTRA5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.cena.genaks.shivamantras.Mantra6"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|keyboard" >
+            <intent-filter>
+                <action android:name="COM.CENA.GENAKS.SHIVAMANTRAS.MANTRA6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.cena.genaks.shivamantras.Sutras"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|keyboard" >
+            <intent-filter>
+                <action android:name="COM.CENA.GENAKS.SHIVAMANTRAS.SUTRAS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.cena.genaks.shivamantras.Section1"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|keyboard" >
+            <intent-filter>
+                <action android:name="COM.CENA.GENAKS.SHIVAMANTRAS.SECTION1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cena.genaks.shivamantras.Section2"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|keyboard" >
+            <intent-filter>
+                <action android:name="COM.CENA.GENAKS.SHIVAMANTRAS.SECTION2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cena.genaks.shivamantras.Section3"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|keyboard" >
+            <intent-filter>
+                <action android:name="COM.CENA.GENAKS.SHIVAMANTRAS.SECTION3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.cena.genaks.shivamantras.About"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|keyboard" >
+            <intent-filter>
+                <action android:name="COM.CENA.GENAKS.SHIVAMANTRAS.ABOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.cena.genaks.shivamantras.Description"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|keyboard" >
+            <intent-filter>
+                <action android:name="COM.CENA.GENAKS.SHIVAMANTRAS.DESCRIPTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+    </application>
+
+</manifest>

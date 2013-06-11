@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+    
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+   android:layout_marginTop="30dp"
+   android:layout_marginBottom="30dp"
+    >
+    
+    <LinearLayout
+        
+        android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+    
+        
+       
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#000006"
+       	
+       
+        android:text="*1- Universal consciousness\n\n1-1 Consciousness is the self.\n1-2 (Ordinary) knowledge consists of associations.\n1-3 Sets of axioms generate structures.\n1-4 The ground of knowledge is mat\drka.\n1-5 The upsurge (of consciousness) is Bhairava.\n1-6 By union with the energy centers one withdraws from the universe.\n1-7 Even during waking, sleep, and deep sleep one can experience\nthe fourth state (transcending consciousness).\n1-8 (Sensory) knowledge is obtained in the waking state.\n1-9 Dreaming is free ranging of thoughts.\n1-10 Deep sleep is maya, the irrational.\n1-11 The experiencer of the three states is the lord of the senses.\n1-12 The domain of the union is an astonishment.\n1-13 The power of the will is the playful uma.\n1-14 The observed has a structure.\n1-15 By fixing the mind on its core one can comprehend\nperceivable and emptiness.\n1-16 Or by contemplating the pure principle one is free of\nthe power that binds (to associations).\n1-17 Right discernment is the knowledge of the self.\n1-18 The bliss of the sight is the joy of samadhi.\n1-19 The body emerges when the energies unite.\n1-20 Elements unite, elements separate, and the universe is gathered.\n1-21 Pure knowledge leads to a mastery of the wheel (of energies).\n1-22 The great lake (of space-time) is experienced through the\npower of mantra."/>
+
+	
+    	
+
+
+ 
+    
+
+</LinearLayout>
+
+   
+
+</ScrollView>
+
+</RelativeLayout>

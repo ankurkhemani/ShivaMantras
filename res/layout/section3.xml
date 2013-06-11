@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+    
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:layout_marginTop="30dp"
+   android:layout_marginBottom="30dp">
+    
+    <LinearLayout
+        
+        android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+    
+        
+       
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#000006"
+       	
+       
+        android:text="*3- The transformations of the individual\n\n3-1 The mind is the self.\n3-2 (Material) knowledge is bondage (association).\n3-3 Maya is the lack of discernment of the principles of transformation.\n3-4 The transformation is stopped in the body.\n3-5 The quieting of the vital channels, the mastery of the elements, the withdrawal from the elements, and the separation of the elements.\n3-6 Perfection is through the veil of delusion.\n3-7 Overcoming delusion and by boundless extension innate knowledge is achieved.\n3-8 Waking is the second ray (of consciousness).\n3-9 The self is the actor.\n3-10 The inner self is the stage.\n3-11 The senses are the spectators.\n3-12 The pure state is achieved by the power of the intellect.\n3-13 Freedom (creativity) is achieved.\n3-14 As here so elsewhere.\n3-15 Emission (of consciousness) is the way of nature and so what is not external is seen as external.\n3-16 Attention to the seed.\n3-17 Seated one sinks effortlessly into the lake (of consciousness).\n3-18 The measure of consciousness fashions the world.\n3-19 As (limited) knowledge is transcended, birth is transcended.\n3-20 Maheshvari and other mothers (sources) of beings reside in the sound elements.\n3-21 The fourth (state of consciousness) should be used to oil the (other) three (states of consciousness).\n3-22 Absorbed (in his nature), one must penetrate (the phonemes) with one's mind.\n3-23 The lower plane arises in the center (of the phoneme).\n3-24 A balanced breathing leads to a balanced vision.\n3-25 What was destroyed rises again by the joining of perceptions with the objects of experience.\n3-26 He becomes like Shiva.\n3-27 The activity of the body is the vow.\n3-28 The recitation of the mantras is the discourse.\n3-29 Self-knowledge is the boon.\n3-30 He who is established is the means and knowledge.\n3-31 The universe is teh aggregate of his powers.\n3-32 Persistence and absorption.\n3-33 Even when this (maintenance and dissolution) there is no break (in awareness) due to the perceiving subjectivity.\n3-34 The feeling of pleasure and pain is external.\n3-35 The one who is free of that is alone (with consciousness).\n3-36 A mass of delusion the mind is subject to activity.\n3-37 When separateness is gone, action can lead to creation.\n3-38 The power to create is based on one's own experience.\n3-39 That which precedes the three (states of consciousness) vitalizes them.\n3-40 The same stability of mind (should permeate) the body, senses and external world.\n3-41 Craving leads to the extroversion of the inner process.\n3-42 When established in pure awareness, (the craving) is destroyed and the (empirical) individual ceases to exist.\n3-43 Although cloaked in the elements one is not free, but,\nlike the lord, one is supreme.\n3-44 The link with the vital breath is natural.\n3-45 Concentrating on the center within the nose, what use are the left and the right channels or su\dsumna?\n3-46 May (the individual) merge (in the lord) once again."/>
+
+	
+    	
+
+
+ 
+    
+
+</LinearLayout>
+
+   
+
+</ScrollView>
+</RelativeLayout>

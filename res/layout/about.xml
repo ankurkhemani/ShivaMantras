@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+    
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+   android:layout_marginTop="30dp"
+   android:layout_marginBottom="30dp"
+    >
+    
+    <LinearLayout
+        
+        android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+    
+        
+       
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:textSize="24dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#000006"
+       	
+       
+        android:text="Lord Shiva is one of the three main gods in Hinduism. Shiva is known as the destroyer god because he removes all evil from the world. His wife is the goddess Parvati. He has a blue neck because, according to Hindu legend, he swallowed a poison in order to save the universe. He has three eyes, the third eye is on his forehead. Shiva is one third of the Hindu trinity including Brahma and Vishnu. Lord Ganesha and Lord Kartikeya are his sons.\n\nChant Shiva mantras to obtain great power and to control your passions. This mantra is used to invoke auspiciousness that is to have pure thoughts and high spiritual feelings.\nThese are really most simple Shiva Mantras for Strength, to be chanted when one feels weak and drained to energy and vitality; both inner as well as physical.\n\nAny of the mantras can be chanted for some time when you feel the symptoms given above. You will feel and sense the power of Shiva entering your being and giving you strength and vitality.\n\nIf you have any suggestions or feedback, drop a word at cena.genaks@gmail.com"/>
+
+	
+    	
+		<Button
+            android:id="@+id/more"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textColor="#CCCC00"
+            android:text="MORE.."
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#000006" />
+
+ 
+    
+
+</LinearLayout>
+
+   
+
+</ScrollView>
+
+</RelativeLayout>

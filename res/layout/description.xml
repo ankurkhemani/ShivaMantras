@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+    
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+   android:layout_marginTop="30dp"
+   android:layout_marginBottom="30dp"
+    >
+    
+    <LinearLayout
+        
+        android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+    
+        
+       
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#000006"
+       	
+       
+        android:text="One day a yogi, who has great accomplishments behind him, went to Shiva, and asked Shiva 'What is all this, your Bhaktas are making all this noise in the world. All the time they are shouting Shiva Shambo. What is this going to do? What is the use of going on yelling this mantra like this?' Then Shiva said 'Let us experiment. Here, there is a worm crawling there. Go close to him and say 'Shiva Shambo' and let us see what happens'. The yogi went to the worm and said 'Shiva Shambo'. The worm fell dead. The yogi was aghast. 'I just uttered this mantra, your name, and the worm is dead. What is this?'\n\nShiva completely oblivious of the worm. He pointed at the butterfly and said 'See how wonderful this butterfly is'. The yogi also gets involved with the butterfly. Shiva said 'Attempt the mantra with the butterfly'. The yogi looked in the direction of the butterfly and said 'Shiva Shambo'. The butterfly fell dead. The yogi was totally in the turmoil, said, 'What is this? If I just utter your name one after another, they are falling dead. I do not want to say it any more'. Shiva completely ignored this and looked at a wonderful deer that was romping around. He said 'Look at the deer, so wonderful'. The yogi also got involved. Shiva said 'Why don't you try this mantra to the deer and see'. The yogi said 'Shiva Shambo' and the deer fell dead. The yogi said 'No, no more can I say this'.\n\nThen somebody brought their new born child to Shiva for his blessings. Then Shiva said 'Why don't you utter the mantra to this child.' The yogi said 'No, I cannot do this. Already the worm, butterfly, deer, I have behind me and I don't want to say this.' Shiva said 'It doesn't matter, say'. The yogi with great hesitation went to the child and said 'Shiva Shambo'. This new born baby, just sat up and said, looked at the yogi and said 'O Yogi! Don't you know the power of the mantra? Don't you know the power of the name of Lord Shiva?' The yogi said, 'No, can you tell me?' The baby said 'Yes, I was a worm. You uttered the mantra I became a butterfly. You uttered the mantra, I became a deer. You uttered the mantra, I became a human. You utter the mantra once more, I will become divine'."/>
+
+	
+    	
+
+ 
+    
+
+</LinearLayout>
+
+   
+
+</ScrollView>
+
+</RelativeLayout>
